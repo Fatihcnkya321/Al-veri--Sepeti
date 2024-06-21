@@ -1,0 +1,31 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+#product-list, #shopping-cart {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#product-list li, #shopping-cart li {
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+#product-list li:last-child, #shopping-cart li:last-child {
+  border-bottom: none;
+}
+
+#product-list button, #shopping-cart button {
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#product-list button:hover, #shopping-cart button:hover {
+  background-color: #3e8e41;
+}
